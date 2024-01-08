@@ -23,7 +23,7 @@
         <form action="response.php" methods="GET">
             <!--input inserire parola-->
             <div class="input-group input-group-sm mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Word</span>
+                <span class="input-group-text text-white px-3" id="ec">Word</span>
                 <label for="censura"></label>
                 <input type="text" class="form-control p-2" id="censura" placeholder="Censurala" name="censura">
             </div>
@@ -31,7 +31,7 @@
             <!--input inserire paragrafo-->
             <div class="mb-3">
                 <label for="paragrafo" class="form-label"></label>
-                <textarea class="form-control" id="paragrafo" rows="20" placeholder="Il testo da censurare" name="paragrafo" class="p-2"></textarea>
+                <textarea class="form-control" id="paragrafo" rows="20" placeholder="Il testo che vuoi modificare..." name="paragrafo" class="p-2"></textarea>
             </div>
             <!--/input inserire paragrafo-->
             <!--inviare il form-->

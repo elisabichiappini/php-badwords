@@ -3,6 +3,8 @@
     $censura = $_GET['censura'];
     $paragrafo = $_GET['paragrafo'];
     $new_paragrafo = str_replace($censura, '...', $paragrafo);
+    $length_paragrafo = strlen($paragrafo);
+    $lenght_new_paragrafo = strlen($new_paragrafo);
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +22,7 @@
 </head>
 <body>
     <!--parola scelta per la censura-->
-    <h2 class="text-center">
+    <h2 class="text-center pt-4">
         <?php 
             echo $censura;
         ?>
@@ -39,6 +41,11 @@
                     </p>
                 </div>
             </div>
+            <div class="border border-dark align-items-end d-flex rounded-2 px-2 pb-1">
+                <span> caratteri <br>
+                    <?php echo $length_paragrafo ?>
+                </span>
+            </div>
             <!--/originale testo submitato-->
             <!--testo censurato-->
             <div class="card" style="width: 30%;">
@@ -49,6 +56,11 @@
                         ?>
                     </p>
                 </div>
+            </div>
+            <div class="border border-dark align-items-end d-flex rounded-2 px-2 pb-1">
+                <span> caratteri <br>
+                    <?php echo $lenght_new_paragrafo?>
+                </span>
             </div>
             <!--/testo censurato-->
         </div>
