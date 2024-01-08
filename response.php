@@ -1,3 +1,9 @@
+<?php 
+    $censura = $_GET['censura'];
+    $paragrafo = $_GET['paragrafo'];
+    $new_paragrafo = str_replace('Elisa', '...', $paragrafo);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +21,7 @@
     <!--parola scelta per la censura-->
     <h2 class="text-center">
         <?php 
-            echo $_GET['censura'];
+            echo $censura;
         ?>
     </h2>
     <!--/parola scelta per la censura-->
@@ -27,7 +33,7 @@
                 <div class="card-body">
                     <p class="card-text">
                         <?php 
-                        echo $_GET['paragrafo'];
+                        echo $paragrafo;
                         ?>
                     </p>
                 </div>
@@ -38,7 +44,7 @@
                 <div class="card-body">
                     <p class="card-text">
                         <?php 
-                        echo $_GET['paragrafo'];
+                        echo $new_paragrafo;
                         ?>
                     </p>
                 </div>
