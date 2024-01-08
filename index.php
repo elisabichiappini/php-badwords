@@ -13,8 +13,8 @@
 </head>
 <body>
     <!--intestazione-->
-    <header>
-        <h1 class="display-1 fw-bold pt-2">Censugrafo</h1>
+    <header class="container">
+        <h1 class="display-1 fw-bold pt-2 text-end">Censugrafo</h1>
     </header>
     <!--/intestazione-->
     <!--spazio form-->
