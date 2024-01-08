@@ -14,7 +14,7 @@
 <body>
     <!--intestazione-->
     <header>
-        <h1 class="display-1 fw-bold">Censugrafo</h1>
+        <h1 class="display-1 fw-bold pt-2">Censugrafo</h1>
     </header>
     <!--/intestazione-->
     <!--spazio form-->
