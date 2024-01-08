@@ -1,7 +1,8 @@
 <?php 
+    //variabili 
     $censura = $_GET['censura'];
     $paragrafo = $_GET['paragrafo'];
-    $new_paragrafo = str_replace('Elisa', '...', $paragrafo);
+    $new_paragrafo = str_replace($censura, '...', $paragrafo);
 ?>
 
 <!DOCTYPE html>
