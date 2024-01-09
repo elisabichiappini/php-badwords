@@ -2,7 +2,7 @@
     //variabili 
     $censura = $_GET['censura'];
     $paragrafo = $_GET['paragrafo'];
-    $new_paragrafo = str_replace($censura, '...', $paragrafo);
+    $new_paragrafo = str_replace($censura, '***', $paragrafo);
     $length_paragrafo = strlen($paragrafo);
     $lenght_new_paragrafo = strlen($new_paragrafo);
 ?>
