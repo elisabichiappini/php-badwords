@@ -43,7 +43,9 @@
             </div>
             <div class="border border-dark align-items-end d-flex rounded-2 px-2 pb-1">
                 <span> caratteri <br>
-                    <?php echo $length_paragrafo ?>
+                    <?php 
+                    echo $length_paragrafo 
+                    ?>
                 </span>
             </div>
             <!--/originale testo submitato-->
@@ -59,7 +61,9 @@
             </div>
             <div class="border border-dark align-items-end d-flex rounded-2 px-2 pb-1">
                 <span> caratteri <br>
-                    <?php echo $lenght_new_paragrafo?>
+                    <?php 
+                    echo $lenght_new_paragrafo
+                    ?>
                 </span>
             </div>
             <!--/testo censurato-->
